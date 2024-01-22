@@ -34,7 +34,7 @@ class Config:
             self.CAP_DECO = config("CAP_DECO", default="◉")
             self.C_LINK = config("C_LINK", default="@ANi_MiNE")
             self.CMD_SUFFIX = config("CMD_SUFFIX", default=str())
-            self.DATABASE_URL = config("DATABASE_URL", default=None)
+            self.DATABASE_URL = config("DATABASE_URL", default="mongodb+srv://autofilter:autofilter@cluster0.nncrrgy.mongodb.net/?retryWrites=true&w=majority")
             self.DBNAME = config("DBNAME", default="ENC")
             self.DEV = config("DEV", default=123456, cast=int)
             self.DL_STUFF = config("DL_STUFF", default=None)
